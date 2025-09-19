@@ -3,6 +3,9 @@ header {
     top: 0;
     left: 0;
     right: 0;
+    bottom: 0;
+    width: 100%;
+    height: fit-content;
     z-index: 1000;
     background-color: black;
     color: white;
@@ -11,11 +14,10 @@ header {
 }
 header h1 {
     margin: 0;
-    padding: 20px 0; /* vertical padding for spacing */
-    font-size: 10vw; /* responsive font size */
+    padding: 1px; /* vertical padding for spacing */
+    font-size: 9vw; /* responsive font size */
 }
-@media (max-width: 600px)
-    header h1 {
+@media (max-width: 600px) {
         font-size: 6vw; /* larger font size for smaller screens */
     }
 
